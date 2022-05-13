@@ -1,0 +1,7 @@
+a=int(input("inserire a: "))
+b=int(input("inserire b: "))
+c=int(input("inserire c: "))
+t=((-b)+((b*b)-(4*a*c))**(1/2))/(2*a)
+d=((-b)-((b*b)-(4*a*c))**(1/2))/(2*a)
+print(t)
+print(d)
